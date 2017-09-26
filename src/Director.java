@@ -7,7 +7,7 @@ public class Director extends Handler {
     @Override
     public void handleRequest(Request request) {
         if (request.getType() == RequestType.PURCHASE){
-            System.out.println("Purchase Handled");
+            System.out.println("Purchase Handled by Director");
         }
 
         else {
